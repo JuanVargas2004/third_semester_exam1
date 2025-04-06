@@ -1,26 +1,40 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar class="toolbar">
     <ion-title style="text-align: center;">
       Formadora I
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
+<ion-content [fullscreen]="true" id="background-contentia">
+  <div id="background-content">
+
+    <ion-header collapse="condense">
+      <ion-toolbar class="toolbar">
       <ion-title size="large" style="text-align: center;">Formadora I</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  
   <div id="container">
     <div id="background">
-
+      
       <h2>Juan Vargas</h2>
-      <img src="assets/home/mypicjpg.jpg" alt="" href="google.com">
+      <img id="mypic" src="assets/home/mypicjpg.jpg" alt="Minha foto">
       <h3>Código da Turma</h3>
       <h4>ADS0301M</h4>
 
+      <div id="icons">
+
+        <a href="https://github.com/JuanVargas2004" target="_blank">
+          <img src="assets/icon/github.png" alt="Link para o github">
+        </a>
+        <a href="https://br.linkedin.com/in/juanvargas2004" target="_blank">
+          <img src="assets/icon/linkedin.png" alt="Link para o linkedin">
+        </a>
+
+      </div>
+      
     </div>
   </div>
+</div>
 </ion-content>
