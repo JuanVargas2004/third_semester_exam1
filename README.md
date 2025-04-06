@@ -22,4 +22,4 @@ Este projeto serve como um exercício para aplicação de conceitos básicos do 
 
 ## Imagem da Aplicação
 
-![Resultado](codigo\src\assets\readme\resultado.png)
+![Resultado](codigo/src/assets/readme/resultado.png)
